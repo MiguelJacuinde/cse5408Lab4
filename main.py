@@ -39,7 +39,7 @@ prime(num)
 
 import re
 
-x = input("Please input Password: ")
+x = raw_input("Please input Password: ")
 print()
 print("''",x,"''")
 print()
@@ -68,7 +68,7 @@ while x:
   else:
     print("Bad Password...Please Try again...")
     print()
-    x = input("Please input Password: ")
+    x = raw_input("Please input Password: ")
 ###################################################################################
 
 #Brian Ayala
